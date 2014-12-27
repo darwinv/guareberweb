@@ -1,0 +1,2 @@
+carpeta Intranet, para guardar archivos php que tengan funcionamiento interno de la pagina, 
+asi como un administrador o espacios restringidos

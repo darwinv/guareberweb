@@ -1,0 +1,2 @@
+carpeta class, para guardar archivos Archivos.class.php que me tienen codigo SQL, consultas a base de datos y
+funciones de procesos que seran llamados desde los objetos

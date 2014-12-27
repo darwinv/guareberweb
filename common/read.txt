@@ -1,0 +1,1 @@
+carpeta common para guardar los footers y headers, asi como menus y otros includes

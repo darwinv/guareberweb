@@ -1,0 +1,2 @@
+carpeta Pages donde se guardaran archivos php y html5 de acceso publico, de modo que no se tendra
+ un desorden en el index
