@@ -1,0 +1,176 @@
+* {
+   margin:0;
+   padding:0;
+   font-family: verdana;
+   font-size:100%;
+            }
+body{
+	background: url('../imagenes/fondo.jpg') no-repeat fixed center center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+div.trans{
+	margin:0 auto;
+	width: 100%;
+	background-size:cover;	
+}
+header{
+	margin: 0 auto;
+	width: 100%;
+	background:rgba(0,0,0,.4);
+	background-size:cover;
+}
+img.spacer{
+	padding:.5%;
+}
+
+div.contenedor{
+	width: 16.666%;
+	height: 20%;
+	float:left;
+}
+/*
+div#uno{
+	background-color: rgb(208, 101, 3);
+}
+div#dos{
+	background-color: rgb(233, 147, 26);
+}
+div#tres{
+	background-color: rgb(22, 145, 190);
+}
+div#cuatro{
+	background-color: rgb(22, 107, 162);
+}
+div#cinco{
+	background-color: rgb(27, 54, 71);
+	
+}
+div#seis{
+	background-color: rgb(21, 40, 54);
+}
+*/
+div#uno{
+	background-color: rgba(0, 0, 0,.3);
+}
+div#dos{
+	background-color: rgba(0, 0, 0,.4);
+}
+div#tres{
+	background-color: rgba(0, 0, 0,.5);
+}
+div#cuatro{
+	background-color: rgba(0, 0, 0,.6);
+}
+div#cinco{
+	background-color: rgba(0, 0, 0,.7);
+}
+div#seis{
+	background-color: rgba(0, 0, 0,.8);
+}
+
+img.icon{
+	display:block;
+	margin:5% auto;
+	background-color:rgba(255,255,255,.15);
+	width:20%;
+	padding:10%;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+p.texto{
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	padding-top:1%;
+	opacity: .6;
+	-webkit-transition: padding .4s;
+	}
+div.contenedor:hover{
+	height:25%;
+	border-bottom: 4px solid rgba(0,0,0,.3);
+}
+div.contenedor:hover p.texto{
+	padding:2.5%;
+	paddind-top: 10%;
+	opacity:1;
+}
+div.contenedor:hover img.icon{
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+/*AQUI CUERPO*/
+div.cuerpo{
+	clear: both;
+	width:100%;
+	height:100%;
+	background-image: url('../imagenes/mm_spacer.gif');
+	padding:27%;
+	padding-right:0px;
+	padding-left:0px;
+	padding-top:0px;
+}
+div.tabla{
+	margin:
+}
+div.noticia{
+	margin:0px 0px 0px 0px;
+	padding-left: 80%; /* Establecemos la barra en la izquierda */
+	padding-top: 0px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+	transition:all 500ms;
+}
+div.noticia:hover{
+	padding-left: 10%;
+}
+
+	/*aqui lo que tenia el estilo antes de hacer el menu*/
+		#agrupar { 
+			 width: 960px; 
+			 text-align:center;
+			 
+			}
+		#seccion { 
+			 float: left; 
+			 width: 660px; 
+			 margin: 20px; 
+			}
+		h1 { 
+		 font: bold 200% verdana, sans-serif;
+		 text-align:inherit;
+		} 
+		h2 { 
+		 font: bold 14px arial, sans-serif;
+		 
+		}
+		article { 
+		 background: rgb(255,255,255); 
+		 border: 1px solid #999999; 
+		 padding: 20px; 
+		 margin-bottom: 15px;
+		} 
+
+	/**/
+
+/**/
+
+/*de aquie en adelante footer con redes sociales*/
+footer { 
+    display: block;
+}
+.copyright {
+	font-size: 90%;
+	color: #FFFFFF;
+	margin:3%;
+	text-align:right;
+}
+#margen{
+        position:fixed;
+	border-top: 1px solid #ccc;
+	width:100%;
+	background-color: rgba(0,0,0,0.5);
+	top: 90%; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
