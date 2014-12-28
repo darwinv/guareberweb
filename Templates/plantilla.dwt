@@ -6,7 +6,7 @@
 	 <meta name="keywords" content="HTML5, CSS3, JavaScript">
          	<!-- TemplateBeginEditable name="EditRegion2" -->
 	<title>GuareberTech</title>
- 	<link rel="stylesheet" href="../estilos/estilos.css">
+ 	<link rel="stylesheet" href="../css/estilos.css">
  	<link rel="icon" href="imagenes/logo.ico" type="image/x-icon" />
  	<!-- TemplateEndEditable --> 
 </head> 
