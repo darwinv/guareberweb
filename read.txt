@@ -1,1 +1,1 @@
-carpeta Principal del sistema, donde se ejecutara el index.php y algunos pocos archivos3
+carpeta Principal del sistema, donde se ejecutara el index.php y algunos pocos archivos
